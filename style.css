@@ -153,8 +153,142 @@ nav a:hover {
     border-radius: 1.5rem;
 }
 
-.about
+.about {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    position: relative;
+}
 
+.about-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: lowercase;
+}
 
+.about-image img{
+    max-width: 600px;
+    margin-top: 0;
+    border-radius: 0;
+}
 
+.portfolio {
+    background: #f8f8f8;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
 
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 700px;
+    max-width: 90%;
+    position: relative;
+}
+
+.portfolio-grid img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.portfolio-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    font-weight: bold;
+    background: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.exhibitions {
+    padding: 1rem 2rem ;
+}
+
+.exhibition-title {
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform: lowercase;
+    color: #000;
+    line-height: 2;
+}
+
+.exhibition-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.exhibition-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.exhibition-item .number {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    width: 50px;
+}
+
+.exhibition-item .title {
+    font-size: 1.2rem;
+    flex: 1;
+}
+
+.exhibition-item .location {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.exhibition-item button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.exhibition-item button:hover {
+    opacity: 0.6;
+}
+
+.footer {
+    padding: 4rem 2rem 6rem;
+    background: #fdfdfd;
+    text-align: center;
+    position: relative;
+}
+
+.footer-nav {
+    margin-bottom: 2rem;
+}
+
+.footer-nav a {
+    margin: 0 1rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-title {
+    font-size: 8rem;
+    font-weight: 900;
+    text-transform: lowercase;
+    color: #000;
+    line-height: 1;
+}
